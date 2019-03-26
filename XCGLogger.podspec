@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name = 'XCGLogger'
-    spec.version = '6.1.0'
+    spec.version = '6.2.1'
     spec.summary = 'A debug log module for use in Swift projects.'
 
     spec.description = <<-DESC
@@ -13,13 +13,13 @@ Pod::Spec.new do |spec|
     spec.license = { :type => 'MIT', :file => 'LICENSE.txt' }
     spec.author = { 'Dave Wood' => 'cocoapods@cerebralgardens.com' }
     spec.social_media_url = 'http://twitter.com/DaveWoodX'
-    spec.platforms = { :ios => '8.0', :watchos => '2.0', :tvos => '9.0' }
+    spec.platforms = { :ios => '10.0', :watchos => '2.0', :tvos => '9.0' }
     spec.requires_arc = true
-    spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+    spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 
-    spec.source = { :git => 'https://github.com/DaveWoodCom/XCGLogger.git', :tag => "#{spec.version}" }
+    spec.source = { :git => 'https://github.com/DarkDirectX/XCGLogger.git', :tag => "#{spec.version}" }
 
-    spec.ios.deployment_target = '8.0'
+    spec.ios.deployment_target = '10.0'
     spec.osx.deployment_target = '10.10'
     spec.watchos.deployment_target = '2.0'
     spec.tvos.deployment_target = '9.0'
